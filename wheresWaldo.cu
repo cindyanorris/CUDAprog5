@@ -75,7 +75,7 @@ int main(int argc, char * argv[])
  */
 void usage()
 {
-   printf("Usage: wheresWaldo -a|-1|-n\n\n");
+   printf("Usage: wheresWaldo -a|-1|-n\n");
    printf("      -a run all tests\n"); 
    printf("      -1 run find one Waldo tests\n"); 
    printf("      -n run find all Waldos tests\n"); 
@@ -115,7 +115,7 @@ void findWaldoTests()
    locationType cpufound; //where waldo was found by cpu
    locationType gpufound; //where waldo was found by gpu
 
-   printf("\nFind Waldo Tests\n");
+   printf("\nFind One Waldo Tests\n");
    printf("%10s\t%8s\t%9s\t%8s\t%8s\n", 
          "N*N", "CPU ms", "GPU ms", "Speedup", "Goal");
    for (i = 0; i < NUMTESTS; i++)
@@ -189,7 +189,7 @@ void findWaldoSTests()
    locationType placed;   //where waldos were placed
    locationType cpufound; //where waldos were found by cpu
    locationType gpufound; //where waldos were found by gpu
-   printf("\nFind Waldos Tests\n");
+   printf("\nFind All Waldos Tests\n");
    printf("%10s\t%8s\t%9s\t%8s\t%8s\n", 
          "N*N", "CPU ms", "GPU ms", "Speedup", "Goal");
    for (i = 0; i < NUMTESTS; i++)

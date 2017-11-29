@@ -25,6 +25,8 @@
    thus the gpuFindWaldo function will set gpufound->count to 2,
    gpufound->indices[0] to the row position of the waldo, and
    gpufound->indices[1] to the col position of the waldo
+
+   @return amount of time it takes to find waldo in millisecond
 */
 float gpuFindWaldo(unsigned char * map, int N, locationType * gpufound)
 {

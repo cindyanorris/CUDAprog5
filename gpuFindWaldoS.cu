@@ -29,6 +29,8 @@
    by column (e.g., 3, 20 comes before 3, 60)
    gpufound->count will be set to 8 since the indices array will have
    8 elements at the end.
+
+   @return time it takes to find the waldos in milliseconds
 */
 float gpuFindWaldoS(unsigned char * map, int N, locationType * gpufound)
 {

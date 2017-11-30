@@ -17,7 +17,7 @@
           gpu->indices - filled with row and col of each waldo
                          waldo positions are added to the array in the
                          order of row then column
-          gpu->size - size of indices array
+          gpu->size - size of indices array 
           gpu->count - number of elements in the array
                        2 * number of waldos at end
 

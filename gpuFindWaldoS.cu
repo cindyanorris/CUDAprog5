@@ -15,11 +15,11 @@
    @param gpufound - struct that should be filled with the locations
                      of the waldos
           gpufound->indices - filled with row and col of each waldo
-                         waldo positions are added to the array in the
-                         order of row then column
+                              waldo positions are added to the array in the
+                              order of row then column
           gpufound->size - size of indices array
           gpufound->count - number of elements in the array
-                       2 * number of waldos at end
+                            2 * number of waldos at end
 
    For example, if the waldos are in positions (3, 20), (10, 40),
    (2, 5), (3, 60) then the indices array will be filled as follows:
